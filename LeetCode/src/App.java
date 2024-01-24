@@ -1,5 +1,11 @@
 public class App {
-    public String says() {
-        return "Hope McDoing";
+    public boolean containsDuplicate(int[] nums) {
+        boolean result = false;
+        if (nums == null) {
+            result = false;
+        } else {
+            result = true;
+        }
+        return result;
     }
 }
