@@ -8,7 +8,7 @@ public class PalindroneTest {
     @Test
     public void test() {
         Palindrome x = new Palindrome();
-        String input = "race a car";
+        String input = "ava";
         boolean tester = x.isPalindrome(input);
         Assert.assertEquals(true, tester);
     }
